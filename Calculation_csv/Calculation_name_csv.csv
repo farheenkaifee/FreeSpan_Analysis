@@ -1,0 +1,220 @@
+values33,values34,values35
+Calculated General Values,,
+Pipe Drag Diameter,,TD
+Inside Diameter,,ID
+Cross Sectional Area,,A
+"Steel Area ",,Ap
+MOI of Steel Pipe,,Ip
+MOI of Concrete Coating,,ICC
+Current Flow Velocity Ratio Sig. Wave (2.4.3),,a
+Mass of Pipe,,mp
+Internal Liner Mass,,mil
+Corrosion Coating Mass,,mce
+Concrete Coating Mass,,mcc
+Marine Growth Mass,,mmg
+Content Mass,,mcon
+Total Mass,,mt
+"Buoyancy ",,B
+Submerged Weight of Pipe,,Ws
+Span Gap Ratio,,e/TD
+Relative Trench Depth (4.4.7),,D/D
+Added Mass Coefficient,,CA
+Added Mass Pipe,,ma
+Effective Mass (6.6.6),,me
+External Pressure,,Pe
+Pressure Difference,,Dp
+Internal Area (Bore),,Ai
+External Pipe Area,,Ae
+Pipe Cross Section Area,,Ap
+Temperature Difference,,DT
+Effective Tension (6.5.4),,Seff
+Total Damping Ratio,,zT
+Stability Parameter (4.1.8 & 4.3.9),,Ks
+,,Ksd
+Keulegan Carpenter Number,,KC
+Keulegan Carpenter Number Max,,KCmax
+,,
+VIV Avoidance Criteria,,
+Reduction Factor (3.4.1),,RD
+Reduction Function (3.4.3),,RC
+100 year wave & Current,,
+Peak-enhancement Factor (3.3.3),,�
+Pierson-Moskowitz Spectrum (3.3.3),,?
+Reference Period (3.3.6),,Tn
+,,
+,,
+,,Tu
+,,Us
+,,U(zrc)
+,,zr
+,,z0
+,,z
+10 year wave & Current,,
+Peak-enhancement Factor (3.3.3),,�
+Pierson-Moskowitz Spectrum (3.3.3),,?
+Reference Period (3.3.6),,Tn
+,,
+,,Us
+,,U(zrc)
+,,zr
+,,z0
+,,z
+100year Steady Current Velocity,,"Uc,100-year"
+10year Steady Current Velocity,,"Uc,10-year"
+100year Wave Induced Velocity,,"Uw,100-year"
+10year Wave Induced Velocity,,"Uw,10-year"
+Representative Flow Condition,,Uextreme
+Inline Onset Value for Reduced Velocity,,"VILR,onset"
+In-line Lowest Natural Frequencies (2.3.3),,"fIL,1"
+Cross Flow  Lowest Natural Frequencies (2.3.3),,"fCF,1"
+,,
+Screening Fatigue Criteria,,
+1 year wave & Current,,
+Peak-enhancement Factor (3.3.3),,�
+Pierson-Moskowitz Spectrum (3.3.3),,?
+Reference Period (3.3.6),,Tn
+,,
+,,
+,,Tu
+,,Us
+,,U(zrc)
+,,zr
+,,z0
+,,z
+1year Steady Current Velocity,,"Uc,1-year"
+1year Wave Induced Velocity,,"Uw,1-year"
+Seabed Correction Factor,,"yproxi,onset"
+Trench Correction Factor,,"ytrench,onset"
+Cross Flow Onset Value for Reduced Velocity,,"VCFR,onset"
+In-line Natural Frequency (2.4.3),,
+,,
+Cross-flow Natural Frequency (2.4.4),,
+,,
+Screening Fatigue Criteria,In-line,
+,Cross-flow,
+,,
+VIV Inline Span Length,,
+Euler Buckling Load (6.8.2),,PE
+Inline Onset Value for Reduced Velocity (4.6.4),,"VILR,onset"
+,,Leff/L
+,,Leff
+Fundamental Natural Frequency,,
+,,f1
+Inline Screening Criteria,,
+Span Length for inline Flow VIV,,LVIV in
+,,
+VIV Cross Flow Span Length,,
+Euler Buckling Load (6.8.2),,PE
+Seabed Correction Factor,,"yproxi,onset"
+Trench Correction Factor,,"ytrench,onset"
+Cross Flow Onset Value for Reduced Velocity (4.4.4),,"VCFR,onset"
+Deflection Load per Unit Length (6.8.7),,Q
+Static Deflection (6.8.7),,d
+,,Leff/L
+,,Leff
+Fundamental Natural Frequency,,
+,,
+Cross-flow Screening Criteria,,
+Span Length For Cross Flow VIV,,LVIVCR
+,,
+Ultimate Limit State Cross-Flow Span Length,,
+Max Environmental Bending Moment (2.6.5),,MCFE
+Max Environmental Stress (2.6.6),,?CFE
+Cross-flow Stress Range (4.3),,"Scomb,CF"
+Combined Response Model Stress Range,,"SRMcomb,CF"
+Cross-flow Induced VIV Stress Range,,SRMCF
+Cross Flow Response Value (4.4.4),,Az/TD
+Cross Flow Unit Stress Amplitude (6.8.3),,ACF
+Cross Flow Reduction Factor (4.4.11),,Rk
+Combined LKCR Response Model Stress Range,,"SLKCRcomb,CF"
+Associated Cross-flow Induced VIV Stress Range,,SLKCRCF
+LKCR Reduction Factor,,?KC
+LKCR Stability Factor,,?Ks
+Euler Buckling Load (6.8.2),,Pcr
+Surface Roughness (Concrete) (Table 5 - 1),,k
+Ratio b/w Roughness and OD,,
+Basic Drag Coefficient for Steady Flow (5.4.4),,C0D(k/D)
+Drag Correction Factor for Pipe Roughness (5.4.5),,"?CDKC,?"
+Drag Correction Factor Accounting for the Seabed Proximity (5.4.6),,?CDproxi
+Drag Correction Factor Accounting for the Effect of Pipe in a Trench (5.4.7),,?CDtrench
+Drag Amplification Factor due to Crossflow Vibration (5.4.8),,?CDVIV
+Drag Coefficient (5.4.3),,CD
+,,f(?)
+Inertia Coefficient (5.4.10),,"CM,0"
+Inertia Correction Factor for Pipe Roughness (5.4.11),,?CMk
+Inertia Correction Factor accounting for the Seabed Proximity (5.4.12),,?CMProxi
+Inertia Correction Factor Accounting for the Effect of Pipe in a Trench (5.4.12),,?CMtrench
+Inertia Coefficient (5.4.9),,CM
+Static Crossflow Bending Moment (6.8.5),,"MCFR,sta"
+Static Crossflow Bending Stress (6.8.5),,"?CFR,sta"
+Hoop Stress,,?CFH
+True Steel Wall Axial Force,,NCFTR
+Wall Axial Stress (2.5.8),,?CFN
+Total Axial Stress (2.5.8),,?CFL
+Vonmisses Stress,,?CFe
+Yield Stress (table 5.2F101),,fy
+,,Leff/L
+,,Leff
+Cross Flow ULS Screening Criteria,,
+Span Length for Crossflow ULS,,LULScr
+,,
+Ultimate Limit State Inline Flow Span Length,,
+Max Environmental Bending Moment (2.6.5),,MILE
+Max Environmental Stress (2.6.6),,?ILE
+In-line Stress Range,,"Scomb,IL"
+Response Model Stress Range,,SRMIL
+In-line Induced VIV Stress Range,,SPIL
+Cross Flow Response Value (4.4.4),,Ay/TD
+Cross Flow Unit Stress Amplitude (6.8.5),,AIL
+Cross Flow Unit Stress Amplitude (6.8.5),,"??,IL"
+Excited Cross-flow Stress Range,,SCF-IL
+Max Environmental Stress due to wave Loading (2.6.10),,"?FM,max"
+,,kp
+,,kM
+Wave Induced Stress Amplitude,,?s
+0th Response Spectral Moment (5.2.6),,M0
+,,SSS
+Linearisation Constant,,b
+S.D of Wave Induced Flow Velocity,,?u
+Correction Function,,gc
+Gaussian Probability Density Function,,?(x)
+Corresponding Distribution Function,,?(x)
+Max Modal Stress,,?1
+Spectral Density Function,,S??
+Phillip's Constant,,?p
+"Spectral Width Parameter ",,?Sp
+Frequency Transfer Function,,G(?)
+Angular Wave Frequency,,?
+Angular Spectral Peak Frequency,,?p
+"Still Water Angular Natural Frequency ",,?1
+Euler Buckling Load (6.8.2),,PE
+Span Natural Frequency Cross Flow (6.8.2),,"f0,in"
+Static (vertical) Deflection (6.8.6),,"d "
+Drag coefficient (5.4.4),,C d
+Inertia coefficient (5.4.10),,C M
+Drag force term (5.4.1),,g D
+Inertia force term (5.4.1),,g I
+Static horizontal load per unit length (6.8.7) Max. wave,,Q hor_max
+Resultant lateralstatic loading,,Q
+Static inline bending moment (6.8.6),,"MinR,sta"
+Static inline bending stress (6.8.6),,"?inR,sta"
+"Hoop stress ",,?ILH
+True steel wall axial force,,NILTR
+Wall axial stress (2.5.8),,?ILN
+Total axial stress (2.5.8),,?ILL
+"Von misses stress ",,?ILe
+yield stress (table 5.2 F101),,fy
+,,Leff/L
+,,Leff
+In-flow ULS screening criteria,,
+Span Length for inline flow ULS,,LULS in
+,,
+"Summary ",,Case Description
+Span Length for inline flow VIV,,LVIV in
+Span Length for cross flow VIV,,LVIV cr
+Span Length for cross flow ULS,,LULS cr
+Span Length for inline flow ULS,,LULS in
+Maximum Deflection (6.8.1),,
+Bar Buckling criteria (6.8.1),,
+Model Length Validity (6.8.1),,
+Overall maximum allowable span length,,Lallow

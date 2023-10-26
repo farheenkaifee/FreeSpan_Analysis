@@ -1,0 +1,79 @@
+values31,values32
+FLOWLINE PROPERTIES, 
+Internal Pressure                                 ,Pi       
+Pipe Outer Diameter                                ,OD   
+Pipe Wallthickness                                 ,tp                
+Pipe Density                                       ,rp               
+Pipe Youngs Modulus                                 ,E            
+Internal Liner Thickness                            ,til           
+Corrosion Thickness                           ,tce              
+Concrete Thickness                            ,tcc                
+Marine Growth Thickness                       ,tmg                    
+Water Density                                 ,?w            
+Marine Growth Density                         ,?mg         
+Gap Under Pipeline                            ,e                 
+Ambient Temperature                         ,Tamb          
+Operation Temperature                         ,Top          
+Effective Residueal Lay Tension                ,Heff            
+Effective Axial Force Release                   ,Seffmax              
+Temperature Expansion Coefficient              ,ae              
+Poisson Ratio                                   ,n             
+SMYS                                            ,        
+Internal Linear Density                         ,ril            
+Corrosion Protection Density                     ,?ce           
+Content Density                                  ,?con                        
+Concrete Density                                 ,?cc     
+,       
+ENVIRONMENTAL DATA
+Free Span Length,L
+Water Depth,WD
+Trench Depth,d
+Case - 1 : 100year Hs + 10year Current,
+Significant Wave Height,Hs-100
+Wave Period,Tw-100
+Peak Period,Tp-100
+Wave Direction,Dir-100
+Current Velocity,Cv-10
+Current Direction,C.Dir-10
+Case - 2 : 10year Hs + 100year Current,
+Significant Wave Height,Hs-10
+Wave Period,Tw-10
+Peak Period,Tp-10
+Wave Direction,Dir-10
+Current Velocity,Cv-100
+Current Direction,C.Dir-100
+Case - 3 : 1year Hs + 1year Current,
+Significant Wave Height,Hs-1
+Wave Period,Tw-1
+Peak Period,Tp-1
+Wave Direction,Dir-1
+Current Velocity,Cv-1
+Current Direction,C.Dir-1
+ ,
+Additional Input Data (DNV RP F105 and OS F101),
+Safety Factor on In-line Frequency (2.7.2),"gf,IL"
+Safety Factor on Cross-flow Frequency (2.7.2),"gf,CF"
+Safety Factor on Stress Range (2.7.2),gs
+Safety Factor on Natural Frequency (2.7.1),gf
+Safety on Damping (2.7.2),gk
+Safety Factor on Onset of Vr (2.7.2),"gon,IL"
+Safety Factor on Onset of Vr (2.7.2),"gon,CF"
+Structural Damping (4.1.8),zstr
+Soil Damping (4.1.8),zsoil
+Hydrodynamic Damping (4.1.8),zh
+Inline Static Deflection (6.8.2),d
+Pressure Load Effect Factor (5.D300),gp
+Usage Factor for Equivalent Stress Check (12.F1200),h
+Reduction Factor,RD
+Reduction Function,RN
+Sea Bottom Roughness,Zo
+Reference Height,Zr
+Height Above Seabed,Z
+,
+Boundary Condition( Fixed - Fixed ),
+Boundary Condition C1 (6.8.7),C1
+Boundary Condition C2 (6.8.7),C2
+Boundary Condition C3 (6.8.7),C3
+Boundary Condition C4 (6.8.7),C4
+Boundary Condition C5 (6.8.7),C5
+Boundary Condition C6 (6.8.7),C6

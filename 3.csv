@@ -1,0 +1,9 @@
+values31,values32,values,units
+FLOWLINE PROPERTIES, , 
+,       , 
+ENVIRONMENTAL DATA, 
+Case - 1 : 100year Hs + 10year Current,, ,m
+Case - 2 : 10year Hs + 100year Current,, ,s
+Case - 3 : 1year Hs + 1year Current,, ,s
+ ,, 
+Additional Input Data (DNV RP F105 and OS F101),, 

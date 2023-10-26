@@ -1,0 +1,77 @@
+values33,values34,values35,values2,units2
+Calculated General Values,,,1390.8,mm
+Pipe Drag Diameter,,TD,1019.1999999999999,mm
+Inside Diameter,,ID,815846.9820508651,mm2
+Cross Sectional Area,,A,77985.01107712087,mm2
+Steel Area ,,Ap,10610011268.113676,mm4
+MOI of Steel Pipe,,Ip,120088662857.73108,mm4
+MOI of Concrete Coating,,ICC,0.6
+Current Flow Velocity Ratio Sig. Wave (2.4.3),,a,612.1823369553988,kg/m
+Mass of Pipe,,mp,0.0,kg/m
+Internal Liner Mass,,mil,0.0,kg/m
+Corrosion Coating Mass,,mce,1743.1466130449555,kg/m
+Concrete Coating Mass,,mcc,64.14274669499633,kg/m
+Marine Growth Mass,,mmg,48.9508189230519,kg/m
+Content Mass,,mcon,2468.4225156184025,kg/m
+Total Mass,,mt,1557.195395162191,kg/m
+Buoyancy ,,B,911.2271204562114,kg/m
+Submerged Weight of Pipe,,Ws,0.39545585274662065
+Span Gap Ratio,,e/TD,0.7238639631866551
+Relative Trench Depth (4.4.7),,D/D,1.2174034003091192
+Added Mass Coefficient,,CA,1895.7349690161539,kg/m
+Added Mass Pipe,,ma,4364.157484634557,kg/m
+Effective Mass (6.6.6),,me,195071.84999999998,Pa
+External Pressure,,Pe,4427928.15,Pa
+Pressure Difference,,Dp,815846.9820508651,mm2
+Internal Area (Bore),,Ai,77985.0110771209,mm2
+External Pipe Area,,Ae,77985.01107712087,mm2
+Pipe Cross Section Area,,Ap,25.1,oC
+Temperature Difference,,DT,-5300671.947700198,N
+Effective Tension (6.5.4),,Seff,0.015
+Total Damping Ratio,,zT,0.41490465536192417
+Stability Parameter (4.1.8 & 4.3.9),,Ks,0.36078665683645583
+,,Ksd,0.0
+Keulegan Carpenter Number,,KC,0.0
+Keulegan Carpenter Number Max,,KCmax,3.6573474645144772
+,,,5.623294988765556
+VIV Avoidance Criteria,,,0.3565532113294618
+Reduction Factor (3.4.1),,RD,4.625999988574775
+Reduction Function (3.4.3),,RC,3.834824944236852,s
+100 year wave & Current,,,0.4537949962374969
+Peak-enhancement Factor (3.3.3),,�,0.7121643929867568
+Pierson-Moskowitz Spectrum (3.3.3),,?,0.563579035255194,s
+Reference Period (3.3.6),,Tn,1.1659593892242537,m/s
+,,,0.9090909090909091,m/s
+,,,1.0143880219739336,m
+,,Tu,0.4610854645336062
+,,Us,3.8877095717511763,m
+,,U(zrc),4.364569116247431
+,,zr,0.2836218726484355
+,,z0,0.48303930031058145
+,,z,0.8988639631866552,s
+10 year wave & Current,,,1.3619319815933275
+Peak-enhancement Factor (3.3.3),,�,3.0604789464140825
+Pierson-Moskowitz Spectrum (3.3.3),,?,0.724562872838524,s
+Reference Period (3.3.6),,Tn,0.8306976717553802,m/s
+,,,0.3293467603811473,m/s
+,,Us,0.19724884923014202,m
+,,U(zrc),Required
+,,zr,NOT Required,m
+,,z0,96339284.79479182
+,,z,0.9090909090909091
+100year Steady Current Velocity,,"Uc,100-year",1.0
+10year Steady Current Velocity,,"Uc,10-year",30
+100year Wave Induced Velocity,,"Uw,100-year",2.7277934594600524,s
+10year Wave Induced Velocity,,"Uw,10-year",Not Included
+Representative Flow Condition,,Uextreme,30.0
+Inline Onset Value for Reduced Velocity,,"VILR,onset",96339284.79479182,s
+In-line Lowest Natural Frequencies (2.3.3),,"fIL,1",8939.138051675434,m/s
+Cross Flow  Lowest Natural Frequencies (2.3.3),,"fCF,1",0.8988639631866552,m/s
+,,,1.3619319815933275,m
+Screening Fatigue Criteria,,,3.0604789464140825
+1 year wave & Current,,,0.010466308061760644,m
+Peak-enhancement Factor (3.3.3),,�,1.0,m/s
+Pierson-Moskowitz Spectrum (3.3.3),,?,30,m/s
+Reference Period (3.3.6),,Tn,2.7278098067449466
+,,,Not Included
+,,,30.0,m/s

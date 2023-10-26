@@ -1,0 +1,75 @@
+values31,values32,values,units1
+Flowline Properties,, ,Pa         
+Internal Pressure,Pi,4623000.0,mm     
+Pipe Outer Diameter,OD,1066.80,mm     
+Pipe Wallthickness,tp,23.80,kg/m3    
+Pipe Density,rp,7850.00,Pa        
+Pipe Youngs Modulus,E,207000000000.0,mm      
+Internal Liner Thickness,til,0.00,mm         
+Corrosion Thickness,tce,0.00,mm        
+Concrete Thickness,tcc,150,mm     
+Marine Growth Thickness,tmg,12,kg/m3      
+Internal Linear Density,ril,1025,kg/m3        
+Corrosion Protection Density,?ce,1234,kg/m3     
+Content Density,?con,550,kg/m3   
+Concrete Density,?cc,14.90,kg/m3   
+Marine Growth Density,?mg,40,kg/m3   
+Water Density,?w,196200,mm   
+Modulus of Elasticityof Concrete,Ecc,0,oC  
+Gap Under Pipeline,e,0.00001,oC  
+Ambient Temperature,Tamb,0.30,N  
+Operation Temperature,Top,44800000,%  
+Effective Residueal Lay Tension,Heff,0,oC-1  
+Effective Axial Force Release,Seffmax,0,Pa
+Temperature Expansion Coefficient,ae,60,m
+Poisson Ratio,n,3040,m
+SMYS,, ,mm
+,, ,m
+Environmental Data,,30,s
+Free Span Length,L,19.4,s
+Water Depth,WD,1245.4,deg
+Trench Depth,d, ,m/s
+Case - 1 : 100year Hs + 10year Current,,2.10,deg
+Significant Wave Height,Hs-100,4.80,m
+Wave Period,Tw-100,5.30,s
+Peak Period,Tp-100,90,s
+Wave Direction,Dir-100,0.44,deg
+Current Velocity,Cv-10,90,m/s
+Current Direction,C.Dir-10, ,deg
+Case - 2 : 10year Hs + 100year Current,,1.70,m
+Significant Wave Height,Hs-10,4.50,s
+Wave Period,Tw-10,5,s
+Peak Period,Tp-10,90,deg
+Wave Direction,Dir-10,0.56,m/s
+Current Velocity,Cv-100,90,deg
+Current Direction,C.Dir-100, 
+Case - 3 : 1year Hs + 1year Current,,1.40
+Significant Wave Height,Hs-1,4.30
+Wave Period,Tw-1,4.60
+Peak Period,Tp-1,90
+Wave Direction,Dir-1,0.35
+Current Velocity,Cv-1,90
+Current Direction,C.Dir-1, 
+,, 
+Additional Input Data (DNV RP F105 and OS F101),,1.10
+Safety Factor on In-line Frequency (2.7.2),"gf,IL",1.10
+Safety Factor on Cross-flow Frequency (2.7.2),"gf,CF",1.30
+Safety Factor on Stress Range (2.7.2),gs,1.40
+Safety Factor on Natural Frequency (2.7.1),gf,1.15
+Safety on Damping (2.7.2),gk,1.10
+Safety Factor on Onset of Vr (2.7.2),"gon,IL",1.20
+Safety Factor on Onset of Vr (2.7.2),"gon,CF",150
+Structural Damping (4.1.8),zstr,0.0050
+Soil Damping (4.1.8),zsoil,0.01
+Hydrodynamic Damping (4.1.8),zh,0
+Concrete Stiffness Coefficient,CSF,0
+Inline Static Deflection (6.8.2),d,1.05
+Pressure Load Effect Factor (5.D300),gp,0.5
+Usage Factor for Equivalent Stress Check (12.F1200),h,1
+,,1
+Boundary Condition( Fixed - Fixed ),,0.00001
+Boundary Condition C1 (6.8.7),C1,19.4
+Boundary Condition C2 (6.8.7),C2,1
+Boundary Condition C3 (6.8.7),C3,3.560
+Boundary Condition C4 (6.8.7),C4,4.00
+Boundary Condition C5 (6.8.7),C5,0.2
