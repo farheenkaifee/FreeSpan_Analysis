@@ -3671,52 +3671,60 @@ class Ui_MainWindow(object):
         print(type(water_depth))
         gravity = 9.81
         print(type(gravity))
-        reference_period_Tn = math.sqrt(float(water_depth)/gravity)
-        # Tn = str(reference_period_Tn)
-        self.Calculation_List_Tn.insert(0,str(reference_period_Tn))
-        print("list tn ",self.Calculation_List_Tn)
-       
-        Peak_Period_100 = (self.peak_period_lineEdit_100.text())
-        Peak_Period_10= (self.peak_period_lineEdit_10.text())
-        Peak_Period_1y = (self.peak_period_lineEdit_1yer.text())
-        self.Calculation_List_Tp.insert(0,Peak_Period_100)
-        print("list tp",self.Calculation_List_Tp)
-
-        self.Calculation_List_Tp.insert(1,Peak_Period_10)
-        print("list tp",self.Calculation_List_Tp)
-
-        self.Calculation_List_Tp.insert(2,Peak_Period_1y)
-        print("list tp",self.Calculation_List_Tp)
-
-        print(type(Peak_Period_100))
-        print(Peak_Period_10)
-        print(Peak_Period_1y)
+        try:
+            reference_period_Tn = math.sqrt(float(water_depth)/gravity)
         
-        Ratio_Tn_by_Tp_100 = (reference_period_Tn/float(Peak_Period_100))
-        Ratio_Tn_by_Tp_10 = (reference_period_Tn/float(Peak_Period_10))
-        Ratio_Tn_by_Tp_1y = (reference_period_Tn/float(Peak_Period_1y))
+        
 
-        self.lineEdit_Tn_by_Tp_100.setText(str(Ratio_Tn_by_Tp_100))
-        self.lineEdit_Tn_by_Tp_10.setText(str(Ratio_Tn_by_Tp_10))
-        self.lineEdit_Tn_by_Tp_1yer.setText(str(Ratio_Tn_by_Tp_1y))
+        
+            # Tn = str(reference_period_Tn)
+            self.Calculation_List_Tn.insert(0,str(reference_period_Tn))
+            print("list tn ",self.Calculation_List_Tn)
+        
+            Peak_Period_100 = (self.peak_period_lineEdit_100.text())
+            Peak_Period_10= (self.peak_period_lineEdit_10.text())
+            Peak_Period_1y = (self.peak_period_lineEdit_1yer.text())
+            self.Calculation_List_Tp.insert(0,Peak_Period_100)
+            print("list tp",self.Calculation_List_Tp)
 
-        hs_100 = str(self.significant_wave_height_lineEdit_100.text())
-        print(type(hs_100))
+            self.Calculation_List_Tp.insert(1,Peak_Period_10)
+            print("list tp",self.Calculation_List_Tp)
 
-        hs_10 = str(self.significant_wave_height_lineEdit_10.text())
-        print(type(hs_10))
+            self.Calculation_List_Tp.insert(2,Peak_Period_1y)
+            print("list tp",self.Calculation_List_Tp)
 
-        hs_1y = str(self.significant_wave_height_lineEdit_1yer.text())
-        print(type(hs_1y))
-   
-        self.Calculation_List_Hs.insert(0,hs_100)
-        print("list hs ",self.Calculation_List_Hs)
+            print(type(Peak_Period_100))
+            print(Peak_Period_10)
+            print(Peak_Period_1y)
+            
+            Ratio_Tn_by_Tp_100 = (reference_period_Tn/float(Peak_Period_100))
+            Ratio_Tn_by_Tp_10 = (reference_period_Tn/float(Peak_Period_10))
+            Ratio_Tn_by_Tp_1y = (reference_period_Tn/float(Peak_Period_1y))
 
-        self.Calculation_List_Hs.insert(1,hs_10)
-        print("list hs ",self.Calculation_List_Hs)
+            self.lineEdit_Tn_by_Tp_100.setText(str(Ratio_Tn_by_Tp_100))
+            self.lineEdit_Tn_by_Tp_10.setText(str(Ratio_Tn_by_Tp_10))
+            self.lineEdit_Tn_by_Tp_1yer.setText(str(Ratio_Tn_by_Tp_1y))
 
-        self.Calculation_List_Hs.insert(2,hs_1y)
-        print("list hs ",self.Calculation_List_Hs)
+            hs_100 = str(self.significant_wave_height_lineEdit_100.text())
+            print(type(hs_100))
+
+            hs_10 = str(self.significant_wave_height_lineEdit_10.text())
+            print(type(hs_10))
+
+            hs_1y = str(self.significant_wave_height_lineEdit_1yer.text())
+            print(type(hs_1y))
+    
+            self.Calculation_List_Hs.insert(0,hs_100)
+            print("list hs ",self.Calculation_List_Hs)
+
+            self.Calculation_List_Hs.insert(1,hs_10)
+            print("list hs ",self.Calculation_List_Hs)
+
+            self.Calculation_List_Hs.insert(2,hs_1y)
+            print("list hs ",self.Calculation_List_Hs)
+
+        except ValueError:
+                            converted = 0
 
 
     def calculate(self):
